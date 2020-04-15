@@ -1,0 +1,2 @@
+rootProject.name='TrackCovaid19'
+include ':app'

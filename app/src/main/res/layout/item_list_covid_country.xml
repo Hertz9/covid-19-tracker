@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<TextView
+    tools:text="82344"
+    style="@style/LabelFontStyle"
+    android:textSize="20sp"
+    android:id="@+id/tvTotalCases"
+    android:textColor="@color/colorTotalConfirmed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+        <TextView
+            tools:text="china"
+            style="@style/LabelFontStyle"
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/tvCountryName"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
